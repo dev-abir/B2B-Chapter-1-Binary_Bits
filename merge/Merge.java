@@ -21,6 +21,10 @@ class Merge {
         // NOTE: infact, we don't need the resultant array, we may just print the
         // elements one after another...
 
+        // NOTE: another approach could be to combine the two arrays and sort the
+        // resultant array, but it will be slower (more time complexity). Huge datasets
+        // could cause TLE (Time Limit Exceeded).
+
         int i = 0, j = 0, k = 0;
 
         while (i < m && j < n) {
