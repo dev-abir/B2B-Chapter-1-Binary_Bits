@@ -1,0 +1,20 @@
+You are given a sorted (asecnding) array A[], of length m,
+and another sorted (ascending) array B[], of length n,
+you have to merge the two arrays into one (C[]), such that the resultant array is also sorted in ascending order.
+
+Input format:
+The first line of input contains m
+the next line contains the elements of array A[], separated by space
+The third line of input contains n
+the last line contains the elements of array B[], separated by space
+
+Output format:
+Only one line containing the elements of C[], separated by space
+
+// Tips:
+- You must follow the exact input and output format.
+// - Check the constraints properly.
+
+Constraints:
+1 <= m, n <= 100
+0 <= Ai, Bi <= 100

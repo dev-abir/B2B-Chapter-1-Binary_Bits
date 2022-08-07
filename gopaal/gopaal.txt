@@ -1,0 +1,41 @@
+Gopaal is going in a car at x kmph. (10 <= x <= 500). We know nobody can drive at this speed range, but Gopaal can.
+
+Gopaal can manage to turn and avoid the truck when he is driving at 30 kmph or less.
+
+A truck is coming right in front of him at y kmph. (5 <= y <= 60)
+Also, the truck driver can avoid Gopaal's car when it is going at 20 kmph or less.
+
+Calculate the probability of Gopaal dying right under the truck.
+
+Conclusion: There is a high chance of Gopaal to die. Don't be like Gopaal.
+
+Input format:
+The first line of input will be T (1 <= T <= 100), the number of test cases.
+Next T lines denotes one test case.
+The first line of each test case will contain x and y, respectively, separated by space.
+
+Output format:
+There will be T output lines (as there are T test cases).
+The output for each test case will be either 1 (RIP Gopaal) or 0 (Gopaal is alive).
+
+Make sure you follow this exact input and output format.
+
+Constraints:
+1 <= T <= 100
+10 <= x <= 500
+5 <= y <= 60
+
+
+Examples:
+Input:
+2
+310 40
+28 30
+
+Output:
+1
+0
+
+Explanation:
+Test case 1: Neither Gopaal nor the truck can turn their vehicle. RIP Gopaal and the truck driver is severly injured.
+Test case 2: Gopaal turns his car and prepares for his next daring journey.
