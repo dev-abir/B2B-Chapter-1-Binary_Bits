@@ -1,0 +1,9 @@
+FInd out the minimum no from a list of dataset given in the format below
+
+SAMPLE INPUT 
+7
+77 63 44 5467 49 564 5
+
+
+SAMPLE OUTPUT 
+Minimum in this list is : 5

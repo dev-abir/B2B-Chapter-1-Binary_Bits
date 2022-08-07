@@ -1,0 +1,7 @@
+Find the no of vowels to constants and find the ratio.
+
+SAMPLE INPUT 
+hello
+
+SAMPLE OUTPUT 
+Ratio is 2 : 3
